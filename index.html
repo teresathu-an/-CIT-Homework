@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRAN THU AN</title>
+    <title>[CIT] BTVN4 - Thu An</title>
 </head>
 <body>
-    <h1>Tran Thu An</h1>
-    <p> Sinh ngày: 07/08/2008</p>
-    <p> Quê quán: Hà Nam</p>
-    <p><strong>Câu lạc bộ CIT</strong></p>
-    <h1><b>Sở thích: Nghe nhạc</b><h1>
-    <img src="TSV.jpg" alt="Ảnh của An" title="Ảnh khai giảng" width="300" height="400"><br>
-    <a href="https://web.facebook.com/teresathuu.an" target="_blank"> Thu An</a>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <form action="/action_page.php" method="post" target="_blank" style="width:700px; height:800px;">
+    <fieldset>
+        <h1><center>Đơn ứng tuyển: Lập trình viên Front-End</center></h1>
+        <fieldset>
+            <legend><h3>Thông tin cá nhân</h3></legend>
+            <label for="hoten"><b>Họ và tên:</b></label><br>
+            <input type="text" id="hoten" name="hoten" required><br><br>
+            <label for="sdt"><b>Số điện thoại:</b></label><br>
+            <input type="text" id="sdt" name="sdt" required><br><br>
+            <label for="email"><b>Email:</b></label><br>
+            <input type="text" id="email" name="email" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Thông tin ứng tuyển</h3></legend>
+            <label for="thuxinviec"><b>Thư xin việc:</b></label><br>
+            <textarea name="thuxinviec" rows="10" cols="60" placeholder="Tại sao bạn lại phù hợp với vị trí này?" requied></textarea><br><br>
+            <label for="CV"><b>Tải lên sơ yếu lý lịch/CV</b></label><br><br>
+            <input type="file" id="CV" name="CV">
+        </fieldset>
+    </fieldset><br>
+    <input type="submit" value="Gửi đơn ứng tuyển" style="color:aliceblue; background-color:rgb(92, 166, 255); width:700px; height:30px" >
+    </form> 
 </body>
 </html>
